@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DroneTV | Log In</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="login-panel">
+      <a class="login-brand" href="index.html#top" aria-label="DroneTV home"><img class="logo-image" src="image/logo.png" alt="DroneTV"></a>
+      <div class="login-copy"><h1>Welcome Back</h1><p>Log in to access pilot training logbooks and service portals</p></div>
+      <form class="login-form" action="dashboard.html" method="get">
+        <label for="email">Email Address</label><input id="email" name="email" type="email" value="operations@dronetv.in" autocomplete="email" required>
+        <label for="password">Password</label><div class="password-field"><input id="password" name="password" type="password" value="password123" autocomplete="current-password" required><button type="button" class="password-toggle" aria-label="Show password"><svg class="eye-icon eye-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 10.6a2 2 0 0 0 2.8 2.8M9.9 5.2A10.7 10.7 0 0 1 12 5c5.2 0 8.5 4.3 9.5 7-.4 1.1-1.2 2.5-2.4 3.7M6.2 6.2C4.3 7.5 3.1 9.3 2.5 12c1 2.7 4.3 7 9.5 7 1.1 0 2.1-.2 3-.5"/></svg><svg class="eye-icon eye-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12S6 5 12 5s9.5 7 9.5 7-3.5 7-9.5 7-9.5-7-9.5-7Z"/><circle cx="12" cy="12" r="2.5"/></svg></button></div>
+        <div class="login-options"><label class="remember"><input type="checkbox" name="remember"><span>Remember me</span></label><a href="#forgot">Forgot Password?</a></div>
+        <button class="button login-submit" type="submit">Log In</button>
+        <div class="or-divider"><span></span><b>or</b><span></span></div>
+        <button class="google-button" type="button"><svg class="google-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.35 12.27c0-.78-.07-1.54-.22-2.27H12v4.3h5.24a4.48 4.48 0 0 1-1.94 2.94v2.45h3.14c1.84-1.7 2.91-4.2 2.91-7.42Z"/><path fill="#34A853" d="M12 21.99c2.63 0 4.84-.87 6.45-2.35l-3.14-2.45c-.87.58-1.98.92-3.31.92-2.54 0-4.69-1.72-5.46-4.03H3.3v2.53A9.74 9.74 0 0 0 12 21.99Z"/><path fill="#FBBC05" d="M6.54 14.08A5.86 5.86 0 0 1 6.23 12c0-.72.12-1.42.31-2.08V7.39H3.3A9.99 9.99 0 0 0 2.25 12c0 1.66.4 3.23 1.05 4.61l3.24-2.53Z"/><path fill="#EA4335" d="M12 5.89c1.43 0 2.72.49 3.73 1.45l2.8-2.8C16.84 2.96 14.63 2 12 2a9.74 9.74 0 0 0-8.7 5.39l3.24 2.53C7.31 7.61 9.46 5.89 12 5.89Z"/></svg>Continue with Google</button>
+      </form>
+      <p class="signup-prompt">Don't have an account? <a href="#signup">Sign Up</a></p>
+    </section>
+    <section class="login-visual"><img src="image/login/login_side.png" alt="Drone flying over a landscape"><div class="login-visual-shade"></div><div class="login-visual-copy"><h2>India's Leading<br>Drone Ecosystem.</h2><p>Join thousands of active certified drone pilots and premium corporate operations executing missions across the nation.</p></div></section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
