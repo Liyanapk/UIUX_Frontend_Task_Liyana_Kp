@@ -48,7 +48,7 @@ DroneTV.in is a fully responsive multi-page website built as part of a UI/UX des
 | Footer Bold Text | `15px` | Bold | Footer section headings |
 
 ### Font Family
-- Primary: **Inter** (or system sans-serif stack)
+-Primary: Segoe UI (Microsoft's native UI font, falls back to system sans-serif)
 
 ---
 
